@@ -1,0 +1,604 @@
+@font-face {
+	font-family: futura-pt; 
+    src: url(../fonts/PT_Sans-Web-Regular.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "futura-pt", sans-serif;
+}
+
+header {
+	height: 110px;
+}
+
+.darkLine {
+	background: #1e2935;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40%;
+}
+    
+.darkLine p {
+    color: #fff;
+    font-family: "futura-pt", sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-right: 30px;
+}
+
+.darkLine span {
+	color: #ff8106;
+}
+
+.darkLine input {
+	background: url(../img/inputPic.png) no-repeat #fff;
+	background-position: 314px 6px;
+	background-size: 21px;
+	border-radius: 5px;
+	height: 60%;
+	width: 25%;
+}
+
+::-webkit-input-placeholder {color:#848d95; text-align: center; font-size: 16px;}
+::-moz-placeholder          {color:#848d95; text-align: center; font-size: 16px;}/* Firefox 19+ */
+:-moz-placeholder           {color:#848d95; text-align: center; font-size: 16px;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#848d95; text-align: center; font-size: 16px;}
+
+.darkLine button{
+	background: #ff8106;
+	border-color: #ff8106;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: bolder;
+	margin-left: 10px;
+	height: 60%;
+	width: 15%; 
+}
+
+.darkLine button:hover {
+	cursor: pointer;
+}
+
+.lightLine {
+	background: #fff;
+	border-bottom: 1px solid #1e2935;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	color: #023c5a;
+	font-size: 14px;
+	font-weight: bold;
+	height: 60%;
+}
+
+.menu {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+	color: #023c5a;
+	padding-left: 25px;
+	width: 25%;
+}
+
+.burger, .phoneImg {
+	height: 20px;
+}
+
+.logo {
+	height: 60%;
+}
+
+.login {
+	height: 30px;
+	padding-left: 5px;
+}
+
+.phone {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	padding-right: 25px;
+}
+
+.phone a {
+	color: #023c5a;
+	font-size: 14px;	
+	text-decoration: none;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+
+	width: 60%;
+}
+
+.product {
+	display: flex;
+	height: 325px;
+	margin-top: 40px;
+}
+
+
+.tabs {
+    position: relative;
+
+	height: 100%;
+	width: 40%;
+}
+
+.content {
+	display: none;
+	height: 250px;
+	width: 240px;
+}
+
+.content.active {
+	display: block;
+}
+
+.previewBtn {
+	border: none;
+	display: inline-block;
+	
+	padding: 5px;
+	height: 60px;
+	width: 50px;
+}
+
+.previewBtn:hover {
+	border: 1px solid #000;
+	cursor: pointer;
+}	
+	
+#front {
+	background: url(../img/front_small_veiw.jpg);
+	background-size: cover;
+}
+
+#back {
+    background: url(../img/back_small_veiw.jpg);
+    background-size: cover;
+}
+
+.previewBtn.active {
+	border: 1px solid #000;
+}
+
+
+.description{
+	margin-left: 20px;
+}
+
+.description img {
+	width: 90px;
+} 
+
+.ratingInfo{
+	display: flex;
+	align-items: center;
+}
+
+.ratingBox{
+	margin-right: 10px;
+	height: 14px;
+	width: 66px;
+}
+
+.rate {
+	background: #f7941d;
+	height: 92%;
+	width: 90%;
+}
+
+.stars {
+	background: url(../img/starsMask_sm.png) no-repeat;
+	margin-top: -14px;
+
+	height: 100%;
+}
+
+.reviews {
+    color: #000; 
+    font-size: 10px;
+	text-decoration: underline;
+}
+
+
+.price {
+	display: flex;
+	margin-top: 15px
+}
+
+.price h2 {
+	color: #ea3445;
+	margin-right: 20px;
+
+}
+
+.details {
+	display: block;
+	margin-right: 30px;
+}
+
+.details span{
+	text-decoration: line-through;
+}
+
+.add {
+	background: #ea3445;
+	border: 1px solid #ea3445;
+	border-radius: 20px;
+	color: #fff;
+	font-weight: bold;
+
+	height: 40px;
+	width: 150px;
+}
+
+.add:hover {
+	cursor: pointer;
+}
+
+
+h3 {
+	color: #1d304a;
+	margin-left: -72%;
+	margin-top: 40px;
+}
+
+
+.otherProducts{
+	display: flex;
+
+}
+
+.Blue, .Pro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 12px;
+    
+	height: 140px;
+	width: 336px;
+}
+
+.blueImg,.proImg {
+	height: 80%;
+}
+
+.blueDescript p {
+	color: #1d304a;
+	font-size: 15px;
+	font-style: bolder;
+} 
+
+.proDescript p {
+	color: #c4622e;
+	font-size: 15px;
+	font-style: bolder;
+}
+
+.Blue {
+	border: 2px solid #9cc5dc;
+	background-color: #e3f1f9;
+
+	margin: 10px;
+	padding-left: 15px;
+}
+
+#blueStars {
+	background: url(../img/starsMaskBlue.png) no-repeat;
+}
+
+#proStars {
+	background: url(../img/starsMaskPro.png) no-repeat;
+}
+
+.blueImg {
+	background-image: url(../img/Blue.png);
+	background-size: cover;
+
+	width: 25%;
+}
+
+.Pro {
+	border: 2px solid #e1bfaf;
+	background-color: #f8ece6;
+
+	margin: 10px;
+    padding-left: 20px;
+}
+
+.proImg {
+	background-image: url(../img/Pro.png);
+	background-size: cover;
+
+	width: 25%;
+}
+
+.proImg img {
+	height: 80px;
+	margin: 47px 0 0 -21px;
+}
+
+.statistics {
+	margin-top: 35px;
+	width: 89%;
+}
+
+.statistics p {
+	color: #1d304a;
+	font-weight: bolder;
+	text-transform: uppercase;
+
+	width: 73%;
+}
+
+.resultPercentage {
+	display: flex;
+	font-size: 12px;
+
+	margin: 20px 0;
+	width: 100%;
+}
+
+.column p {
+	text-transform: capitalize;
+}
+
+.column {
+	width: 50%;
+}
+
+.barChart {
+	display: flex;
+	margin: 10px 10px 10px 0;
+
+	width: 100%;
+}
+
+.oneHundredPercent {
+	display: flex;
+	width: 90%;
+}
+
+
+.orange, .orange83, .orange85, .orange88 {
+	background-color: #ff8108;
+	height: 15px;
+}
+
+.orange {
+	width: 81%;
+}
+
+.orange83 {
+	width: 83%;
+}
+.orange85 {
+	width: 85%;
+}
+.orange88 {
+	width: 88%;
+}
+
+
+.white, .white17, .white15, .white12 {
+	background-color: #c8c8c8;
+	height: 15px;
+}
+
+.white {
+	width: 19%;
+}
+.white17 {
+	width: 17%;
+}
+.white15 {
+	width: 15%;
+}
+.white12 {
+	width: 12%;
+}
+
+.numberPercent {
+	margin-left: 5px;
+	width: 10%;
+}
+
+small span {
+	font-weight: bold;
+}
+
+hr {
+	color: #f1efef;
+	margin-top: 20px;
+	width: 90%;
+}
+
+.addVideo {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 35px;
+
+	height: 15%;
+	width: 95%;
+}
+
+.steps {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 60px;
+	margin-left: auto;
+
+	height: 15%;
+	width: 95%;
+}
+
+.steps p {
+	font-size: 13px;
+	margin: 20px 28px 0 0;
+}
+
+.stepOne, .stepTwo, .stepThree {
+	display: block;
+
+	font-size: 12px;
+	text-align: center;
+
+	height: 150px;
+	width: 24%;
+}
+
+.stepOnePic, .stepTwoPic, .stepThreePic {
+	background-size: cover;
+	height: 75%;
+	width: 73%;
+}
+
+.stepOnePic {
+	background-image: url(../img/instruction_sprite.png);
+	
+}
+
+.stepTwoPic {
+	background-image: url(../img/instruction_sprite.png);
+	background-position: -130px 0;
+}
+
+.stepThreePic {
+	background-image: url(../img/instruction_sprite.png);
+	background-position: -260px 0;
+}
+
+.steps span, .advice span {
+	font-weight: bold;
+}
+
+.advice {
+	font-size: 13px;
+	margin: 30px;
+	text-align: center;
+}
+
+.goal {
+	float: left;
+	font-size: 14px;
+	line-height: 1.5;
+	width: 80%;
+}
+
+.consist {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-transform: uppercase;
+
+	width: 85%;
+}
+
+.consistColumn {
+	list-style: none;
+	margin: 20px;
+	width: 50%;
+}
+
+
+.item, .item2, .item3, .item4, .item5, .item6, .item7, .item8 {
+	height: 30px;
+}
+
+.item {
+	background: url(../img/icons_sprite1.png) no-repeat;
+	background-position: 0 0;
+	padding: 7px 0 0 50px;	
+}
+
+.item2 {
+	background: url(../img/icons_sprite1.png) no-repeat;
+	background-position: 0 -34px;
+	padding: 7px 0 0 50px;	
+}
+.item3 {
+	background: url(../img/icons_sprite1.png) no-repeat;
+	background-position: 0 -68px;
+	padding: 7px 0 0 50px;	
+}
+.item4 {
+	background: url(../img/icons_sprite1.png) no-repeat;
+	background-position: 0 -102px;
+	padding: 7px 0 0 50px;	
+}
+.item5 {
+	background: url(../img/icons_sprite2.png) no-repeat;
+	background-position: 0 0;
+	padding: 7px 0 0 50px;	
+}
+.item6 {
+	background: url(../img/icons_sprite2.png) no-repeat;
+	background-position: 0 -38px;
+	padding: 7px 0 0 50px;	
+}
+.item7 {
+	background: url(../img/icons_sprite2.png) no-repeat;
+	background-position: 0 -76px;
+	padding: 7px 0 0 50px;	
+}
+.item8 {
+	background: url(../img/icons_sprite2.png) no-repeat;
+	background-position: 0 -114px;
+	padding: 7px 0 0 50px;	
+}
+
+#appearanceScroll {
+	background-color: rgba(230,230,230,.8);
+	display: none;
+			
+	position:fixed;
+	left: 0;
+    top: 60%;
+
+    height: 55px;
+    width: 100%;
+}
+
+.styleFlex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-top: -35px;
+}
+
+#appearanceScroll img {
+	height: 90px;
+	margin: 0 30px 40px 0;
+}
+
+.advText span {
+	font-weight: bold;
+	margin-bottom: 0; 
+}
+
+.advText p {
+	font-size: 12px;
+	margin-left: 60px;
+}
+
+#appearanceScroll button {
+	margin-left: 20px;
+}

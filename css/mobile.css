@@ -1,0 +1,272 @@
+@font-face {
+	font-family: futura-pt; 
+    src: url(../fonts/PT_Sans-Web-Regular.ttf);
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "futura-pt", sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+
+	width: 320px;
+}
+
+header {
+	height: 55px;
+}
+
+.lightLine {
+	background: #fff;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 100%;
+	
+}
+
+.logo {
+	height: 60%;
+	margin-right: 60px;
+}
+
+.login {
+	height: 30px;
+	padding: 0 10px 5px 0;
+}
+
+.burger {
+	height: 20px;
+	padding-right: 10px;
+}
+
+.phoneImg {
+	height: 55px;
+
+}
+
+hr {
+	margin: 10px;
+	width: 100%;
+}
+
+.product {
+	display: flex;
+	height: 325px;
+	margin-top: 40px;
+	width: 100%;
+}
+
+.description{
+	margin-left: 20px;
+	width: 50%;
+}
+
+.description ul {
+	font-size: 12px;
+}
+
+.ratingInfo{
+	display: flex;
+	align-items: center;
+}
+
+.ratingBox{
+	margin-right: 10px;
+	height: 14px;
+	width: 66px;
+}
+
+.rate {
+	background: #f7941d;
+	height: 92%;
+	width: 90%;
+}
+
+.stars {
+	background: url(../img/starsMask_sm.png) no-repeat;
+	margin-top: -14px;
+
+	height: 100%;
+}
+
+.reviews {
+    color: #000; 
+    font-size: 10px;
+	text-decoration: underline;
+}
+
+.price {
+	display: flex;
+	margin-top: 15px
+}
+
+.price h4 {
+	color: #ea3445;
+	font-weight: bold;
+	margin-right: 20px;
+
+}
+
+.details p {
+	font-size: 12px;
+}
+
+
+.details span{
+	text-decoration: line-through;
+}
+
+.add {
+	background: #ea3445;
+	border: 1px solid #ea3445;
+	border-radius: 20px;
+	color: #fff;
+	font-weight: bold;
+
+    margin: 6px 0 0 -10px;
+	height: 37px;
+	width: 130px;
+}
+
+.incr {
+	border: 2px solid #959595;
+	border-radius: 10px;
+	color: #959595;
+	font-size: 14px;
+	width: 20px;
+
+	margin-right: 10px;
+}  
+
+
+.caption {
+	color: #1d304a;
+	font-weight: bold;
+	margin-left: -50%;
+	
+}
+
+.otherProducts {
+	width: 100%;
+}
+
+.Blue, .Pro {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-size: 12px;
+    
+	margin-bottom: 10px;
+	padding-left: 18px;
+	height: 130px;
+	width: 100%; 
+}
+
+#blueStars {
+	background: url(../img/starsMaskBlue.png) no-repeat;
+}
+#proStars {
+	background: url(../img/starsMaskPro.png) no-repeat;
+}
+
+.blueImg,.proImg {
+	height: 65%;
+	margin-left: 10px;
+	padding-bottom: 30px;
+}
+
+.blueDescript p {
+	color: #1d304a;
+	font-size: 15px;
+	font-style: bold;
+} 
+
+.proDescript p {
+	color: #c4622e;
+	font-size: 15px;
+	font-style: bold;
+}
+
+.Blue {
+	border: 2px solid #9cc5dc;
+	background-color: #e3f1f9;
+}
+
+.blueImg {
+	background-image: url(../img/Blue.png);
+	background-size: cover;
+
+	width: 25%;
+}
+
+.Pro {
+	border: 2px solid #e1bfaf;
+	background-color: #f8ece6;
+}
+
+.proImg {
+	background-image: url(../img/Pro.png);
+	background-size: cover;
+
+	width: 25%;
+}
+
+#appearanceScroll {
+	background-color: rgba(230,230,230,.8);
+	display: none;
+			
+	position:fixed;
+	left: 0;
+    top: 60%;
+
+    height: 55px;
+    width: 100%;
+}
+
+.styleFlex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-top: -35px;
+}
+
+#appearanceScroll img {
+	height: 90px;
+	margin: 0 10px 40px 0;
+}
+
+.advText span {
+	font-weight: bold;
+	margin-bottom: 0; 
+}
+
+.advText p {
+	font-size: 12px;
+	margin-left: 20px;
+}
+
+.pureMarketing {
+	display: flex;
+}
+
+.redPrice {
+	color: #ea3445;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#appearanceScroll button {
+	margin-left: 10px;
+}
